@@ -1,0 +1,19 @@
+#landing-a,
+#landing-b {
+    background-color: #103338;
+}
+
+#landing-a::before {
+    background-image: url("../../assets/images/octopus-lady/octopus-lady-a.webp");
+}
+
+#landing-b::before {
+    background-image: url("../../assets/images/octopus-lady/octopus-lady-b.webp");
+}
+
+#landing-a .text-block,
+#landing-b .text-block {
+    background-color: #cc755c;
+    color: var(--primary-text-light);
+}
+

@@ -1,0 +1,41 @@
+:root {
+    --default-padding: 20px;
+}
+
+@media only screen and ( min-width: 1440px ){
+    :root {
+        --default-padding: 40px;
+    }
+}
+
+.content {
+    padding: var(--default-padding);
+}
+
+@media only screen and ( min-width: 1440px ) {
+    .pull-rd {
+        transform: translate(80px, 80px);
+    }
+
+    .pull-ld {
+        transform: translate(-80px, 80px);
+    }
+
+    .pull-ru {
+        transform: translate(80px, -80px);
+    }
+
+    .pull-lu {
+        transform: translate(-80px, -80px);
+    }
+}
+
+@media only screen and ( min-width: 1440px ) {
+    .top-z-stack {
+        z-index: 100;
+    }
+
+    .bottom-z-stack {
+        z-index: 50;
+    }
+}

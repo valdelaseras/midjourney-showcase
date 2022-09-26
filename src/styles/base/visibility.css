@@ -1,0 +1,9 @@
+.breakpoint-only {
+    display: none;
+}
+
+@media only screen and ( min-width: 1440px ) {
+    .breakpoint-only {
+        display: inline-block;
+    }
+}

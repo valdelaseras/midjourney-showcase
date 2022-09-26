@@ -1,0 +1,16 @@
+.section {
+    width: 100vw;
+    height: auto;
+    padding: var(--default-padding);
+    position: relative;
+}
+
+@media only screen and ( min-width: 1440px ) {
+    .section {
+        height: 100vh;
+        max-height: 100vh;
+        overflow: hidden;
+        scroll-behavior: smooth;
+        scroll-snap-align: center;
+    }
+}

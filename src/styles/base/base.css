@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+@media only screen and ( min-width: 1440px ){
+    main {
+        max-height: 100vh;
+        overflow-y: scroll;
+        scroll-snap-type: y mandatory;
+    }
+}
+
+

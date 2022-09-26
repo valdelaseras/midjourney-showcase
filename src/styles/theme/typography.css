@@ -1,0 +1,40 @@
+body {
+    font-size: 14px;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+@media only screen and ( min-width: 1440px ) {
+    body {
+        font-size: 18px;
+    }
+}
+
+p {
+    line-height: 1.5rem;
+}
+
+a {
+    color: inherit;
+}
+
+@media only screen and ( min-width: 1440px ) {
+    p {
+        line-height: 2rem;
+    }
+}
+
+h1 {
+    font-size: 3.07rem;
+}
+
+h2 {
+    font-size: 1.92rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+.bold {
+    font-weight: bold;
+}
