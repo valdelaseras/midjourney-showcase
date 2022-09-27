@@ -20,18 +20,20 @@
 }
 
 #landing-a .text-block {
-    background-color: #cc755c;
+    background-color: #942d3a;
+    /*background-color: #cc755c;*/
 }
 
 #landing-b .text-block {
     background-color: #942d3a;
+    /*background-color: #942d3a;*/
 }
 
 @media only screen and ( min-width: 1440px ) {
     #landing-a > .section-border {
-        box-shadow: 0 0 0 40px #cc755c inset;
-        -webkit-box-shadow: 0 0 0 40px #cc755c inset;
-        -moz-box-shadow: 0 0 0 40px #cc755c inset;
+        box-shadow: 0 0 0 40px #942d3a inset;
+        -webkit-box-shadow: 0 0 0 40px #942d3a inset;
+        -moz-box-shadow: 0 0 0 40px #942d3a inset;
     }
 
     #landing-b > .section-border {

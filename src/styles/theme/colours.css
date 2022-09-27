@@ -1,4 +1,4 @@
 :root {
     --primary-text-dark: #222222;
-    --primary-text-light: #ECEBEBDD;
+    --primary-text-light: rgba(243, 242, 242, 0.87);
 }
