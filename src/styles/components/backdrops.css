@@ -6,8 +6,9 @@
     width: 105%;
     height: 105%;
     filter: blur(30px);
-    opacity: .45;
+    opacity: .65;
     background-position: center;
     background-size: cover;
-    /* set the image url in the appropriate styles/sections/*.css file */
+    /* set the image url in the appropriate styles/sections!*.css file */
 }
+

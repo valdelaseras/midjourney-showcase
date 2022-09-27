@@ -1,3 +1,10 @@
-.center-align-self {
-    align-self: center;
+@media only screen and ( min-width: 1440px ) {
+    .center-align-self {
+        align-self: center;
+    }
+
+    .flex {
+        display: flex;
+    }
 }
+

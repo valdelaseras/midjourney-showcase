@@ -13,4 +13,21 @@
         scroll-behavior: smooth;
         scroll-snap-align: center;
     }
+
+    .section-border {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .section-content {
+        position: absolute;
+        top: var(--default-padding);
+        left: var(--default-padding);
+        right: var(--default-padding);
+        bottom: var(--default-padding);
+    }
 }
+
