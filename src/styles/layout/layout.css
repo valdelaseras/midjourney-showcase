@@ -17,16 +17,32 @@
         transform: translate(80px, 80px);
     }
 
+    .pull-rdd {
+        transform: translate(80px, 160px);
+    }
+
     .pull-ld {
         transform: translate(-80px, 80px);
+    }
+
+    .pull-ldd {
+        transform: translate(-80px, 160px);
     }
 
     .pull-ru {
         transform: translate(80px, -80px);
     }
 
+    .pull-ru {
+        transform: translate(80px, -160px);
+    }
+
     .pull-lu {
         transform: translate(-80px, -80px);
+    }
+
+    .pull-lu {
+        transform: translate(-80px, -160px);
     }
 }
 
