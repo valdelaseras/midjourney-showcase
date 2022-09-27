@@ -6,10 +6,6 @@
     background-color: #0c3937;
 }
 
-#landing-a::before {
-    background-image: url("../../assets/images/octopus-lady/octopus-lady-a.webp");
-}
-
 #landing-b::before {
     background-image: url("../../assets/images/octopus-lady/octopus-lady-b.webp");
 }
@@ -21,12 +17,10 @@
 
 #landing-a .text-block {
     background-color: #942d3a;
-    /*background-color: #cc755c;*/
 }
 
 #landing-b .text-block {
     background-color: #942d3a;
-    /*background-color: #942d3a;*/
 }
 
 @media only screen and ( min-width: 1440px ) {

@@ -16,59 +16,127 @@
 @media only screen and ( min-width: 1440px ) {
     /*pull right*/
     .pull-r {
-        transform: translateX(80px);
+        transform: translateX(120px);
     }
 
     .pull-rr {
-        transform: translateX(120px);
+        transform: translateX(260px);
     }
 
     /*pull left*/
     .pull-l {
-        transform: translateX(-80px);
+        transform: translateX(-120px);
     }
 
     .pull-ll {
-        transform: translateX(-120px);
+        transform: translateX(-260px);
     }
 
     /*pull right down*/
     .pull-rd {
-        transform: translate(80px, 80px);
+        transform: translate(120px, 120px);
     }
 
     .pull-rdd {
-        transform: translate(80px, 120px);
+        transform: translate(120px, 260px);
     }
 
     /*pull left down*/
     .pull-ld {
-        transform: translate(-80px, 80px);
+        transform: translate(-120px, 120px);
     }
 
     .pull-ldd {
-        transform: translate(-80px, 120px);
+        transform: translate(-120px, 260px);
+    }
+
+    .pull-lld {
+        transform: translate(-260px, 120px);
     }
 
     .pull-lldd {
-        transform: translate(-120px, 120px);
+        transform: translate(-260px, 260px);
     }
 
     /*pull right up*/
     .pull-ru {
-        transform: translate(80px, -80px);
+        transform: translate(120px, -120px);
     }
 
     .pull-ruu {
-        transform: translate(80px, -120px);
+        transform: translate(120px, -260px);
     }
 
     /*pull left up*/
     .pull-lu {
-        transform: translate(-80px, -80px);
+        transform: translate(-120px, -120px);
     }
 
     .pull-luu {
-        transform: translate(-80px, -120px);
+        transform: translate(-120px, -260px);
+    }
+}
+
+@media only screen and ( min-width: 2560px ){
+    /*pull right*/
+    .pull-r {
+        transform: translateX(5vw);
+    }
+
+    .pull-rr {
+        transform: translateX(14vw);
+    }
+
+    /*pull left*/
+    .pull-l {
+        transform: translateX(-5vw);
+    }
+
+    .pull-ll {
+        transform: translateX(-14vw);
+    }
+
+    /*pull right down*/
+    .pull-rd {
+        transform: translate(5vw, 12vh);
+    }
+
+    .pull-rdd {
+        transform: translate(5vw, 26vh);
+    }
+
+    /*pull left down*/
+    .pull-ld {
+        transform: translate(-5vw, 12vh);
+    }
+
+    .pull-ldd {
+        transform: translate(-5vw, 26vh);
+    }
+
+    .pull-lld {
+        transform: translate(-14vw, 12vh);
+    }
+
+    .pull-lldd {
+        transform: translate(-14vw, 26vh);
+    }
+
+    /*pull right up*/
+    .pull-ru {
+        transform: translate(5vw, -12vh);
+    }
+
+    .pull-ruu {
+        transform: translate(5vw, -26vh);
+    }
+
+    /*pull left up*/
+    .pull-lu {
+        transform: translate(-5vw, -12vh);
+    }
+
+    .pull-luu {
+        transform: translate(-5vw, -26vh);
     }
 }
