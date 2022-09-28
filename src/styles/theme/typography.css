@@ -1,6 +1,6 @@
 body {
     font-size: 14px;
-    font-family: "Helvetica Neue", sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 @media only screen and ( min-width: 1440px ) {
@@ -38,4 +38,8 @@ h3 {
 
 .bold {
     font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
 }

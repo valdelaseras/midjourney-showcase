@@ -8,6 +8,16 @@
     }
 }
 
+main {
+    margin-top: 60px;
+}
+
+@media only screen and ( min-width: 1440px ){
+    main {
+        margin-top: 0;
+    }
+}
+
 .content {
     padding: var(--default-padding);
     text-align: center;
