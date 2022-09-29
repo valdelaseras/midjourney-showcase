@@ -24,6 +24,15 @@ main {
 }
 
 @media only screen and ( min-width: 1440px ) {
+    /*pull down*/
+    .pull-d {
+        transform: translateY(120px);
+    }
+
+    .pull-dd {
+        transform: translateY(260px);
+    }
+
     /*pull right*/
     .pull-r {
         transform: translateX(120px);
@@ -88,6 +97,15 @@ main {
 }
 
 @media only screen and ( min-width: 2560px ){
+    /*pull down*/
+    .pull-d {
+        transform: translateY(12vh);
+    }
+
+    .pull-d {
+        transform: translateY(26vh);
+    }
+
     /*pull right*/
     .pull-r {
         transform: translateX(5vw);
@@ -148,5 +166,15 @@ main {
 
     .pull-luu {
         transform: translate(-5vw, -26vh);
+    }
+}
+
+@media only screen and ( min-width: 1440px ){
+    .top-stack {
+        z-index: 200;
+    }
+
+    .middle-stack {
+        z-index: 100;
     }
 }

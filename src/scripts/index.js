@@ -6,32 +6,36 @@ window.onload = () => {
     handleInitialStyles()
 }
 
+const options = {
+    margin: '0',
+    threshold: [0.5, 0.10, 0.15, 0.20, 0.25, 0.30, 0.35, 0.40, 0.45, 0.50, 0.55, 0.60, 0.65, 0.70, 0.75, 0.80, 0.85, 0.90, 0.95, 1.0],
+};
+
+const observer = new IntersectionObserver( ( sections ) => {
+    for ( const section of sections ) {
+        if ( section.isIntersecting && section.intersectionRatio >= 0.95 ) {
+
+            const textBlock = section.target.querySelector('.text-block');
+
+            if ( textBlock ) {
+                const backgroundColor = document.defaultView.getComputedStyle(textBlock,null)["backgroundColor"];
+                const color = document.defaultView.getComputedStyle(textBlock,null)["color"];
+
+                setStyle( backgroundColor, color );
+            }
+        }
+    }
+}, options);
+
 handleInitialStyles = () => {
     if ( window.innerWidth < 1440 ){
-        matchBackgroundColor()
+        Array.from( document.getElementsByClassName( 'section' )).map( section => {
+            observer.observe( section );
+        });
     } else {
         setNavigationChecked();
     }
 }
-
-isElementInView = ( element, threshold ) => {
-    return element.getBoundingClientRect().top < window.innerHeight - threshold;
-}
-
-matchBackgroundColor = () => {
-    let backgroundColor;
-    let color;
-    const sections = document.getElementsByClassName('section');
-
-    for ( let i = 0; i < sections.length; i++ ){
-        if ( isElementInView( sections[i], 100 )) {
-            backgroundColor = document.defaultView.getComputedStyle(sections[i].querySelector('.text-block'),null)["backgroundColor"];
-            color = document.defaultView.getComputedStyle(sections[i].querySelector('.text-block'),null)["color"];
-        }
-    }
-
-    setStyle( backgroundColor, color );
-};
 
 setStyle = ( backgroundColor, color ) => {
     // set background colours

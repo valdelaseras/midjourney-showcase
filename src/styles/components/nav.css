@@ -7,7 +7,7 @@
     padding: var(--default-padding);
     color: var(--primary-text-light);
     text-align: right;
-    /*background-color: #942d3a;*/
+    transition: all 100ms ease-out;
 }
 
 @media only screen and ( min-width: 1440px ){
@@ -35,7 +35,6 @@
     z-index: 100;
     text-align: left;
     padding-bottom: 40px;
-    /*background-color: #942d3a;*/
     box-shadow: 0 60px 40px 10px rgba(0,0,0,0.2);
 }
 
