@@ -1,0 +1,33 @@
+#aquatic-woman-section-a::before {
+    background-image: url("../../assets/images/aquatic-woman/aquatic-woman-b.webp");
+}
+
+#aquatic-woman-section-b::before {
+    background-image: url("../../assets/images/aquatic-woman/aquatic-woman-a.webp");
+}
+
+#aquatic-woman-section-a .text-block,
+#aquatic-woman-section-b .text-block {
+    color: var(--primary-text-dark);
+}
+
+#aquatic-woman-section-a .text-block {
+    background-color: #f0f8ff;
+}
+
+@media only screen and ( min-width: 1440px ) {
+    #aquatic-woman-section-a > .section-border {
+        box-shadow: 0 0 0 40px #f0f8ff inset;
+        -webkit-box-shadow: 0 0 0 40px #f0f8ff inset;
+        -moz-box-shadow: 0 0 0 40px #f0f8ff inset;
+    }
+
+    #aquatic-woman-section-b > .section-border {
+        box-shadow: 0 0 0 40px #f0f8ff inset;
+        -webkit-box-shadow: 0 0 0 40px #f0f8ff inset;
+        -moz-box-shadow: 0 0 0 40px #f0f8ff inset;
+    }
+}
+
+
+
